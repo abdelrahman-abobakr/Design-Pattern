@@ -19,7 +19,7 @@ class ChairFactory{
 }
 
 class Sofa{
-    constructor(price, width, height, length){
+    constructor(price, modelNO){
         this.price = price;
         this.modelNO = modelNO;
     }
@@ -39,7 +39,7 @@ class SofaFactory{
 }
 
 class CoffeeTable{
-    constructor(price, width, height, length){
+    constructor(price, modelNO){
         this.price = price;
         this.modelNO = modelNO;
     }
